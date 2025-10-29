@@ -1,1 +1,1 @@
-# Learning-HTML-CSS-js
+# Learning-HTML-CSS-JS
