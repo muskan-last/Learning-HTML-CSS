@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cricket_game.css">
+    <title>Cricket Game</title>
+</head>           
+<body>
+    <div class="boxes">
+    <h2 class="hea">BAT BALL STUMP GAME</h2>
+
+
+    <button class="bat" onclick="
+       generate_computer_choice()
+       let resultmsg = get_results('bat' , computer_choice);
+       show_result('bat',computer_choice , resultmsg) ;
+       ">BAT<button>
+
+    <button class="ball" onclick="
+       generate_computer_choice();
+       resultmsg = get_results('ball' , computer_choice);
+       show_result('ball',computer_choice , resultmsg);
+       ">BALL<button>
+
+    <button class="stump"onclick="
+       generate_computer_choice();
+       resultmsg = get_results('stump' , computer_choice);
+       show_result('stump',computer_choice , resultmsg);
+       ">STUMP<button>
+    </div>
+
+<!-- js is start -->
+<script src="cricket_game.js"></script>
+</body>
+</html>

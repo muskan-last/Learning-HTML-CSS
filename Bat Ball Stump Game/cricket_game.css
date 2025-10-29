@@ -1,0 +1,68 @@
+       body{
+            text-align: center;
+            background-color:greenyellow;
+            text-shadow: 10px gray;
+        }
+        .ball{
+            padding: 10px;
+            font-weight: 900;
+            background-color: aquamarine;
+            border-radius: 10px;
+            height: 50px;
+            width: 70px;
+            border:  4px solid black;
+
+        }
+        .ball:hover{
+            background-color: skyblue;
+            transform: scale(2);
+            text-decoration: underline;
+            
+        }
+        .bat{
+            padding: 10px;
+            font-weight: 900;
+            background-color: aquamarine;
+            border-radius: 10px;
+            height: 50px;
+            width: 70px;
+            border:  4px solid black;
+
+        }
+        .bat:hover{
+            background-color: skyblue;
+            transform: scale(2);
+            text-decoration: underline;
+            
+        }
+        .stump{
+             padding: 10px;
+            font-weight: 900;
+            background-color: aquamarine;
+            border-radius: 10px;
+            height: 50px;
+            width: 70px;
+            border:  4px solid black;
+
+        }
+        .stump:hover{
+            background-color: skyblue;
+            transform: scale(2);
+            text-decoration: underline;
+            
+        }
+        .boxes{
+            border: black;
+            background-color: beige;
+            padding: 50px;
+            height: 50%;
+            border-radius: 10px;
+            margin: 200px 40px 200px 40px;
+            box-shadow:10px gray;
+            border-style: solid;
+            text-align: center;
+
+       }
+       .hea{
+        text-decoration: underline;
+       }
